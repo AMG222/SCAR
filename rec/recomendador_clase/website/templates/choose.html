@@ -1,0 +1,9 @@
+{% extends "base.html" %} {% block title %}Movie Recommendator{% endblock %} {% block content %}
+    <form method="POST">
+        <button type="submit" class="btn btn-primary" name="button"  value="Demographic" style="position:absolute; top:10%; left: 25%; height:10%;width:40%;background-color: red;">Demographic</button>
+        <hr>
+        <button type="submit" class="btn btn-primary" name="button"  value="Colaborative" style="position:absolute; top:25%;left: 25%;height:10%;width:40%">Colaborative</button>
+        <hr>
+        <button type="submit" class="btn btn-primary" name="button"  value="Hybrid" style="position:absolute; top:40%;left: 25%;height:10%;width:40%;background-color: green;">Hybrid</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,256 @@
+{% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
+    content %}
+    <form method="POST">
+      <h3 align="center">Sign Up</h3>
+      <div class="form-group">
+        <label for="username" style="color:white">Username</label>
+        <input
+          type="username"
+          class="form-control"
+          id="username"
+          name="username"
+          placeholder="Enter username"
+        />
+      </div>
+      <div class="form-group">
+        <label for="sex" style="color:white">Sex (M or F)</label>
+        <input
+          type="sex"
+          class="form-control"
+          id="sex"
+          name="sex"
+          placeholder="Enter your sex"
+        />
+      </div>
+      <div class="form-group">
+        <label for="age" style="color:white">Age</label>
+        <input
+          type="age"
+          class="form-control"
+          id="age"
+          name="age"
+          placeholder="Enter your age"
+        />
+      </div>
+      <div class="form-group">
+        <label for="occupation" style="color:white">Occupation</label>
+        <input
+          type="text"
+          class="form-control"
+          id="occupation"
+          name="occupation"
+          placeholder="Enter your Occupation"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password1" style="color:white">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password1"
+          name="password1"
+          placeholder="Enter password"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password2" style="color:white">Password (Confirm)</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password2"
+          name="password2"
+          placeholder="Confirm password"
+        />
+      </div>
+      <br>
+      <br>
+      <link rel="stylesheet" href="static/hor.css" type="text/css">
+      <label for="Genres_preferences" style="color:white">Genres preferences, write 0-100 your preferences for each genre</label>
+      <ul class="form-group">
+        <br>
+        <li>
+          <label for="Action" style="color:white;">Action</label>
+          <input style="width:22%;"
+            type="action"
+            class="center-block"
+            id="action"
+            name="action"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Adventure" style="color:white;">Adventure</label>
+          <input style="width:22%;"
+            type="adventure"
+            class="center-block"
+            id="adventure"
+            name="adventure"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Animation" style="color:white;">Animation</label>
+          <input style="width:22%;"
+            type="animation"
+            class="center-block"
+            id="animation"
+            name="animation"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Childrens" style="color:white;">Children's</label>
+          <input style="width:22%;"
+            type="childrens"
+            class="center-block"
+            id="childrens"
+            name="childrens"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Comedy" style="color:white;">Comedy</label>
+          <input style="width:22%;"
+            type="comedy"
+            class="center-block"
+            id="comedy"
+            name="comedy"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Crime" style="color:white;">Crime</label>
+          <input style="width:22%;"
+            type="crime"
+            class="center-block"
+            id="crime"
+            name="crime"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Documentary" style="color:white;">Documentary</label>
+          <input style="width:22%;"
+            type="documentary"
+            class="center-block"
+            id="documentary"
+            name="documentary"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Drama" style="color:white;">Drama</label>
+          <input style="width:22%;"
+            type="drama"
+            class="center-block"
+            id="drama"
+            name="drama"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Fantasy" style="color:white;">Fantasy</label>
+          <input style="width:22%;"
+            type="fantasy"
+            class="center-block"
+            id="fantasy"
+            name="fantasy"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="FilmNoir" style="color:white;">Film-Noir</label>
+          <input style="width:22%;"
+            type="filmnoir"
+            class="center-block"
+            id="filmnoir"
+            name="filmnoir"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Horror" style="color:white;">Horror</label>
+          <input style="width:22%;"
+            type="horror"
+            class="center-block"
+            id="horror"
+            name="horror"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Musical" style="color:white;">Musical</label>
+          <input style="width:22%;"
+            type="musical"
+            class="center-block"
+            id="musical"
+            name="musical"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Mystery" style="color:white;">Mystery</label>
+          <input style="width:22%;"
+            type="mystery"
+            class="center-block"
+            id="mystery"
+            name="mystery"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Romance" style="color:white;">Romance</label>
+          <input style="width:22%;"
+            type="romance"
+            class="center-block"
+            id="romance"
+            name="romance"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="SciFi" style="color:white;">Sci-Fi</label>
+          <input style="width:22%;"
+            type="scifi"
+            class="center-block"
+            id="scifi"
+            name="scifi"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Thriller" style="color:white;">Thriller</label>
+          <input style="width:22%;"
+            type="thriller"
+            class="center-block"
+            id="thriller"
+            name="thriller"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="War" style="color:white;">War</label>
+          <input style="width:22%;"
+            type="war"
+            class="center-block"
+            id="war"
+            name="war"
+            placeholder="00"
+          />
+        </li>
+        <li>
+          <label for="Western" style="color:white;">Western</label>
+          <input style="width:22%;"
+            type="western"
+            class="center-block"
+            id="western"
+            name="western"
+            placeholder="00"
+          />
+        </li>
+      </ul>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    {% endblock %}

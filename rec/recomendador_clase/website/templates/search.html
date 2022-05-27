@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block title %}Search{% endblock %} {% block content
+    %}
+    <form method="POST">
+    <div class="form-group" style="position:absolute; top: 0.6%; left: 75%; width: 10%;">
+      <input type="search" class="form-control" id="search" name="search" placeholder="Search..">
+    </div>
+    <ul class="list-group list-group-flush" id="notes">
+      {% for movie in range(0,size)%}  
+      <li class="list-group-item" style="display: inline-block; height: 450px;">
+          <div style="position:relative; top: 55px;">
+            <img src = {{movies[movie][1]}}
+            width="200" 
+            height="300"
+            ></img>
+          </div>
+          <div class="rate" style = "position:relative; top: -250px; left: 250px; width: 850px;" >
+            <input type="hidden" id={{block3[movie]}} name={{block3[movie]}} value={{movies[movie][4]}}>
+            <a name="title" style="font-size:1.2vw">
+              {{movies[movie][0]}}
+            </a>
+            <p name="description" style="font-size:0.75vw">
+              {{movies[movie][2]}}
+            </p>
+            <input type="hidden" id={{block2[movie]}} name={{block2[movie]}} value={{movies[movie][3]}}>
+            <p name="genres" style="font-size:0.75vw">
+              {{movies[movie][3]}}
+            </p>
+            <link href="../static/stars.css" rel="stylesheet" type="text/css" />
+            <input type="hidden" id="star0" name="rate" value="0" />
+            <fieldset class="rate">
+              <input type="radio" id="star5-{{movie}}" name={{block[movie]}} value="5" /><label for="star5-{{movie}}" title="text">5 stars</label>
+              <input type="radio" id="star4-{{movie}}" name={{block[movie]}} value="4" /><label for="star4-{{movie}}" title="text">4 stars</label>
+              <input type="radio" id="star3-{{movie}}" name={{block[movie]}} value="3" /><label for="star3-{{movie}}" title="text">3 stars</label>
+              <input type="radio" id="star2-{{movie}}" name={{block[movie]}} value="2" /><label for="star2-{{movie}}" title="text">2 stars</label>
+              <input type="radio" id="star1-{{movie}}" name={{block[movie]}} value="1" /><label for="star1-{{movie}}" title="text">1 star</label>
+            </fieldset>
+            <button type="submit" class="btn btn-primary" name="button"  value={{block[movie]}}>Rate</button>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+  </form>
+    {% endblock %}

@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Adventure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Adventure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Animation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Animation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#ColaborativePreferences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#ColaborativePreferences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Comedy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Comedy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#CrimeDocumentary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#CrimeDocumentary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#DemographicPreferences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#DemographicPreferences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#DemographicType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#DemographicType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Drama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Drama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Fantasy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Fantasy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Film-Noir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Film-Noir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Title"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Horror -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Horror">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#IdsOfNeighbors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#IdsOfNeighbors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Movie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Musical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Musical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Mystery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Mystery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NeighborsAffinity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NeighborsAffinity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberOfNeighbors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberOfNeighbors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberOfViewedPreferences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberOfViewedPreferences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberViewedMovies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberViewedMovies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Occupation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Occupation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Password -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Password">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Romance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Romance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Sci-Fi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Sci-Fi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Sex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Sex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Thriller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Thriller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#ViewedMovies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#ViewedMovies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#War -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#War">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Western -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Western">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Children&apos;s -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Children&apos;s">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Action"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Adventure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Animation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Comedy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#CrimeDocumentary"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Drama"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Fantasy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Film-Noir"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Horror"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Musical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Mystery"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Romance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Sci-Fi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Thriller"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#War"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Western"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Children&apos;s"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Age"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#ColaborativePreferences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#DemographicPreferences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#DemographicType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#IdsOfNeighbors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NeighborsAffinity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberOfNeighbors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberOfViewedPreferences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#NumberViewedMovies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Occupation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Password"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#Sex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anmaga1/ontologies/2022/4/untitled-ontology-2#ViewedMovies"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

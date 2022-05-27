@@ -1,0 +1,16 @@
+li {
+  float: left;
+  text-align: center;
+}
+
+li label {
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+div button {
+  position:relative;
+  top:300px;
+}
